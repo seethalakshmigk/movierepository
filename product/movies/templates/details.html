@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+  <h1>Movie Details</h1>
+  <p>Movie ID: {{ movie.id }}</p>
+  <p>Movie Name: {{ movie.name }}</p>
+  <p>Description: {{ movie.desc }}</p>
+  <img src="{{ movie.img.url }}" alt="{{ movie.name }}">
+<a href="{% url 'movieapp:delete' movie.id %}"><button type="button" class="btn btn-light" >delete</button></a>
+{% endblock %}
