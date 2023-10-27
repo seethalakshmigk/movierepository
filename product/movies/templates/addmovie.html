@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+ <h3 style="padding-left:450px;">Add Movies Here</h3><br><br>
+<div class="container">
+    <div class="row">
+
+        <div class="col=md-6" style="padding-left:400px;">
+            <form action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+
+    <input type="text" name="name" class="input_class" placeholder="enter the name"> <br><br>
+    <input type="text" name="desc" class="input_class" placeholder="enter the description"><br><br>
+    <input type="file" name="img" class="input_class" placeholder="enter the image"><br><br>
+    <button class="btn btn-secondary" type="submit">add</button>
+</form>
+
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+{% endblock %}

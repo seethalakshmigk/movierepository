@@ -1,0 +1,39 @@
+body {
+    font-style: oblique;
+
+    background-color: aqua;
+}
+.card-img-top{
+    height:300px
+
+
+}
+/* Add padding to the col-md-6 elements */
+.col-md-6 {
+    padding: 20px; /* Adjust the padding as needed */
+    
+}
+
+/* Add styling to the buttons */
+.btn-light {
+    background-color: green; /* Customize the background color */
+    color: black; /* Customize the text color */
+    border: 1px solid gray; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 5px 15px; /* Adjust the padding as needed */
+    margin-right: 10px; /* Adjust the right margin between buttons */
+}
+
+/* Adjust the gap between the col-md-6 elements */
+.col-gap {
+    margin-top: 20px; /* Adjust the top margin to create a gap */
+}
+.input_class{
+  padding: 10px 30px ; /* Adjust the padding as needed */
+}
+h3{
+  padding:30px 40px 50px 20px
+}
+.btn btn-secondary{
+  padding-left:50px;
+}
